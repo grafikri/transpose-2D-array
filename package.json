@@ -13,12 +13,20 @@
   "bugs": {
     "url": "https://github.com/grafikri/transpose-2D-array/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafikri/transpose-2D-array.git"
+  },
   "keywords": [
     "tranpose",
     "array",
     "2D",
     "javascript",
     "typescript"
+  ],
+  "files": [
+    "dist",
+    "types"
   ],
   "author": "Serhan Coşkun",
   "license": "ISC",
