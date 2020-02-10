@@ -3,11 +3,19 @@
   "version": "0.0.1",
   "description": "This method is used to transpose 2D array.",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "prepare": "npm run build",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/grafikri/transpose-2D-array/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafikri/transpose-2D-array.git"
   },
   "keywords": [
     "tranpose",
@@ -16,11 +24,17 @@
     "javascript",
     "typescript"
   ],
+  "files": [
+    "dist",
+    "types"
+  ],
   "author": "Serhan Coşkun",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
     "nodemon": "^2.0.2",
+    "np": "^6.0.0",
     "typescript": "^3.7.5"
   }
 }
