@@ -1,0 +1,25 @@
+{
+  "name": "transpose-2D-array",
+  "version": "0.0.1",
+  "description": "This method is used to transpose 2D array.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tranpose",
+    "array",
+    "2D",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Serhan Coşkun",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
+  }
+}
