@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "This method is used to transpose 2D array.",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "prepare": "npm run build",
