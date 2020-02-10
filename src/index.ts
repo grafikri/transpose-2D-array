@@ -1,4 +1,4 @@
-export default function transpose2D(array: any[][]) {
+const transpose2D = function(array: any[][]) {
   let arrTranspose: any[][] = []
 
   let xPos = array.length
@@ -21,3 +21,9 @@ export default function transpose2D(array: any[][]) {
 
   return arrTranspose
 }
+
+export default transpose2D
+
+// to support commonjs default export
+module.exports = transpose2D
+module.exports.default = transpose2D
