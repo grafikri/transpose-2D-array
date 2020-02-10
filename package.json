@@ -10,6 +10,9 @@
     "jest": "jest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bugs": {
+    "url": "https://github.com/grafikri/transpose-2D-array/issues"
+  },
   "keywords": [
     "tranpose",
     "array",
