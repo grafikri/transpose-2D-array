@@ -1,5 +1,5 @@
 {
-  "name": "transpose-2D-array",
+  "name": "transpose-2d-array",
   "version": "0.0.1",
   "description": "This method is used to transpose 2D array.",
   "main": "dist/index.js",
