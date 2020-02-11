@@ -1,6 +1,6 @@
 {
   "name": "transpose-2d-array",
-  "version": "0.0.1",
+  "version": "1.0.5",
   "description": "This method is used to transpose 2D array.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
